@@ -5,7 +5,8 @@ This sample is how to use the F5 Python SDK to manage F5 BIG-IP at the AWS envir
 The main code(f5sdk_Demo.ipynb) is working on google colab and most of the other sources are saved in google drive. This is easy to share and colloraborate to other colleguase 
 
 ## How the code works?
-<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/f5sdk.png" width="80%" height="300"/>
+<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/f5sdk.png" width="80%" height="300"/> <br>
+Download all the files then save them into your google drive. you need to change "Colab Notebooks" directory name to "Colab" or change directory info from the each code like this. __/content/gdrive/MyDrive/Colab/aws_acl.sh" ==> /content/gdrive/MyDrive/Colab Notebooks/aws_acl.sh"__ 
 
 ## What are the files?
  - f5sdk_Demo.ipynb ; main code file
