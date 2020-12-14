@@ -61,13 +61,10 @@ All of the requirement packages will be installed before lession starting and ad
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession4_1.png" width="80%" height="300"/><br>
 
 - lession5 <br>
+<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession6_1.png" width="80%" height="300"/><br>
+
+- lession6 <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession5_0.png" width="80%" height="300"/><br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession5_1.png" width="80%" height="300"/><br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession5_2.png" width="80%" height="300"/><br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession5_3.png" width="80%" height="300"/><br>
-
-- lession6 <br>
-<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession6_1.png" width="80%" height="300"/><br>
-
-
-
