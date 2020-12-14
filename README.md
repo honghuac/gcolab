@@ -28,27 +28,27 @@ $ git clone https://github.com/Azure/caf-terraform-landingzones.git
 $ cd landingzones/landingzones/landingzone_vdc_demo/
 $ git clone https://github.com/jungcheolkwon/blueprint.git
 ```
-*lession1
+- lession1 <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession1_0.png" width="80%" height="300"/><br>
 
-*lession2
+- lession2 <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession2_0.png" width="80%" height="300"/><br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession2_1.png" width="80%" height="300"/><br>
 
-*lession3
+- lession3 <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession3_0.png" width="80%" height="300"/><br>
 
-*lession4
+- lession4 <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession4_0.png" width="80%" height="300"/><br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession4_1.png" width="80%" height="300"/><br>
 
-*lession5
+- lession5 <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession5_0.png" width="80%" height="300"/><br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession5_1.png" width="80%" height="300"/><br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession5_2.png" width="80%" height="300"/><br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession5_3.png" width="80%" height="300"/><br>
 
-*lession6
+- lession6 <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession6_1.png" width="80%" height="300"/><br>
 
 
