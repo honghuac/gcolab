@@ -8,23 +8,23 @@ The main code(f5sdk_Demo.ipynb) is working on google colab and most of the other
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/f5sdk.png" width="80%" height="300"/>
 
 ## What are the files?
- - f5sdk_Demo.ipynb
- - manager.pem
+ - f5sdk_Demo.ipynb ; main code file
+ - manager.pem ; private ssh-key to access the management host
  - 
 
 ## What do you need to change in the files?
- - as3-xx.json
- - aws_acl.sh
- - credential.txt
- - hosts.txt
- - mgmt.txt
+ - as3-xx.json ; as3 template files which you need to update with your own environment such as partition name, host info etc
+ - aws_acl.sh ; add colab host ipaddress to security group in each regions and need to update your own ids 
+ - credential.txt ; big-ip user and password and need to update your own user/pwd
+ - hosts.txt ; big-ip ipaddress or FQDN and need to update your own device info
+ - mgmt.txt ; management host ipaddress or FQDN and need to update your own host info
  
 ## Run the code stey by step
 
 - Prerequisites <br>
-> install packages
+> install packages <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession3_0.png" width="80%" height="300"/><br>
-> add colab host ipaddress to the Security Group
+> add colab host ipaddress to the Security Group <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession3_0.png" width="80%" height="300"/><br>
 
 - lession1 <br>
