@@ -6,7 +6,11 @@ The main code(f5sdk_Demo.ipynb) is working on google colab and most of the other
 
 ## How the code works?
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/f5sdk.png" width="80%" height="300"/> <br>
-Download all the files then save them into your google drive. you need to change "Colab Notebooks" directory name to "Colab" or change directory info from the each code like this. __/content/gdrive/MyDrive/Colab/aws_acl.sh" ==> /content/gdrive/MyDrive/Colab Notebooks/aws_acl.sh"__ 
+Download all the files then save them into your google drive. you need to change "Colab Notebooks" directory name to "Colab" or change directory info from the each code like this.<br>
+__/content/gdrive/MyDrive/Colab/aws_acl.sh" ==> /content/gdrive/MyDrive/Colab Notebooks/aws_acl.sh"__ <br><br>
+
+The code is working on google colab by default but if you want to use them in your local environment you can do it with some code updating like file location.
+All of the requirement packages will be installed before lession starting and add the colab ipaddress to the Security Group in each regions. The colab ipaddress will be copied to the management host then will be removed it automatically from the Security Group at the midnight by cron job.
 
 ## What are the files?
  - f5sdk_Demo.ipynb ; main code file
