@@ -5,7 +5,7 @@ This sample is how to use the F5 Python SDK to manage F5 BIG-IP at the AWS envir
 The main code(f5sdk_Demo.ipynb) is working on google colab and most of the other sources are saved in google drive. This is easy to share and colloraborate to other colleguase 
 
 ## How the code works?
-
+![example](https://github.com/jungcheolkwon/gcolab/blob/master/images/f5sdk.png)
 ## What are the files?
  - f5sdk_Demo.ipynb
  - manager.pem
@@ -19,3 +19,19 @@ The main code(f5sdk_Demo.ipynb) is working on google colab and most of the other
  - mgmt.txt
  
 ## Run the code stey by step
+
+
+```sh
+$ cd ~/Docker
+$ git clone https://github.com/Azure/caf-terraform-landingzones.git
+$ cd landingzones/landingzones/landingzone_vdc_demo/
+$ git clone https://github.com/jungcheolkwon/blueprint.git
+```
+
+# Build landingzone with BIG-IP (in rover container)
+After download the source files, open workspace from VSC.
+![example](https://github.com/jungcheolkwon/blueprint/blob/master/images/openworkspace0.png)<br>
+![example](https://github.com/jungcheolkwon/blueprint/blob/master/images/openworkspace1.png)
+You can see bash prompt after rover container is up then move to blueprint directory.
+![example](https://github.com/jungcheolkwon/blueprint/blob/master/images/broughtup-docker.png)
+![example](https://github.com/jungcheolkwon/blueprint/blob/master/images/movedtovdc-demo.png)
