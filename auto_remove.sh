@@ -28,4 +28,4 @@ echo "ended on $end_day"
 
 
 ##add the below line in the crontab and need to update the path as yours
-#0 * * * *  cd /home/ubuntu && ./auto_remove.sh >> /tmp/remove.log 2>&1   
+#0 0 * * *  cd /home/ubuntu && ./auto_remove.sh >> /tmp/remove.log 2>&1   
