@@ -10,17 +10,22 @@ Download all the files then save them into your google drive. you need to change
 __/content/gdrive/MyDrive/Colab/aws_acl.sh" ==> /content/gdrive/MyDrive/Colab Notebooks/aws_acl.sh"__ <br><br>
 
 The code is working on google colab by default but if you want to use them in your local environment you can do it with some code updating like file location.
-All of the requirement packages will be installed before lession starting and add the colab ipaddress to the Security Group in each regions. The colab ipaddress will be copied to the management host then will be removed it automatically from the Security Group at the midnight by cron job.
+All of the requirement packages will be installed before lession starting and add the colab ipaddress to the Security Group in each regions. The colab ipaddress will be copied to the management host then will be removed it automatically from the Security Group at the midnight by cron job. __you need to change ssh port to 8443 in your management host.__ 
 
-## What are the files?
+## What are the files and need to change in the files?
  - f5sdk_Demo.ipynb ; main code file
- - manager.pem ; private ssh-key to access the management host
- - 
-
-## What do you need to change in the files?
+ - manager.pem ; private ssh-key to access the management host. you can create the file like this( openssl rsa -in ~/.ssh/id_rsa -out manager.pem ) after ssh-keygen -t rsa
  - as3-xx.json ; as3 template files which you need to update with your own environment such as partition name, host info etc
  - aws_acl.sh ; add colab host ipaddress to security group in each regions and need to update your own ids 
- - credential.txt ; big-ip user and password and need to update your own user/pwd
+ - credential.txt ; big-ip user and password and need to update your own user/pwd. if you don't want to save credential in the file, you can remove comment from each lession user and pwd then add comment(#) from with open to user = cred[0] line like below.
+ ```
+   #with open('/content/gdrive/MyDrive/Colab/credential.txt', "r") as f:
+   #  cred = f.read().splitlines() 
+   #  user = cred[0];   pwd = cred[1]
+
+    user = input('Enter username:')
+    pwd = getpass('Enter admin password') 
+ ```
  - hosts.txt ; big-ip ipaddress or FQDN and need to update your own device info
  - mgmt.txt ; management host ipaddress or FQDN and need to update your own host info
  
