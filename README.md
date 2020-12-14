@@ -21,13 +21,12 @@ The main code(f5sdk_Demo.ipynb) is working on google colab and most of the other
  
 ## Run the code stey by step
 
+- Prerequisites <br>
+> install packages
+<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession3_0.png" width="80%" height="300"/><br>
+> add colab host ipaddress to the Security Group
+<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession3_0.png" width="80%" height="300"/><br>
 
-```sh
-$ cd ~/Docker
-$ git clone https://github.com/Azure/caf-terraform-landingzones.git
-$ cd landingzones/landingzones/landingzone_vdc_demo/
-$ git clone https://github.com/jungcheolkwon/blueprint.git
-```
 - lession1 <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession1_0.png" width="80%" height="300"/><br>
 
