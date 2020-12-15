@@ -15,6 +15,8 @@ export AWS_SESSION_TOKEN=$Session_Token
 
 desc_day=`date +"%m-%d-%y"`
 newip=`curl -s checkip.amazonaws.com`
+#mgmt is management host
+mgmt=1.8.5.6
 
 echo "select region where you want to update"
 echo "1=us-east-1, 2=eu-central-1, 3=ap-southeast-1, or all"
@@ -57,3 +59,5 @@ else
 	aws ec2 authorize-security-group-ingress --group-id $ids --protocol tcp --port 8443 --cidr "$newip/32" 
 	aws ec2 update-security-group-rule-descriptions-ingress --group-id $ids --ip-permissions '[{"IpProtocol": "tcp", "FromPort": 8443, "ToPort": 8443, "IpRanges": [{"CidrIp": "'$newip'/32", "Description": "google colab_'$desc_day'"}]}]'
 fi
+echo "$newip" >> /content/added_ip
+scp -o 'StrictHostKeyChecking no' -P 8443 -i /content/gdrive/MyDrive/Colab/manager.pem added_ip ubuntu@$mgmt:/home/ubuntu
