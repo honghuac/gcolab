@@ -15,7 +15,7 @@ All of the requirement packages will be installed before lession starting and ad
 ## What are the files and need to change in the files?
  - as3-xx.json ; as3 template files which you need to update with your own environment such as partition name, host info etc
  - auto_remove.sh ; remove colab host ipaddress from each Security Group and need to update ids in the file and update crontab like end of the file and AWS access key and secret key installed in the host.
- - aws_acl.sh ; add colab host ipaddress to Security Group in each regions and need to update your own ids and AWS STS is using to access AWS environment in here but you can use access_key and secret_key only after update below lines in the file
+ - aws_acl.sh ; add colab host ipaddress to Security Group in each regions and need to update your own ids, mgmt host and AWS STS is using to access AWS environment in here but you can use access_key and secret_key only after update below lines in the file
  ```
   read -p 'Access_key_ID: ' accesskey
   read -p 'Secret_key: ' secretkey
@@ -42,9 +42,10 @@ All of the requirement packages will be installed before lession starting and ad
 
 - Prerequisites <br>
 > install packages <br>
-<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession3_0.png" width="80%" height="300"/><br>
+<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/pre1_0.png" width="80%" height="300"/><br>
 > add colab host ipaddress to the Security Group <br>
-<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession3_0.png" width="80%" height="300"/><br>
+<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/pre2_0.png" width="80%" height="300"/><br>
+<img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/pre2_1.png" width="80%" height="300"/><br>
 
 - lession1 <br>
 <img src="https://github.com/jungcheolkwon/gcolab/blob/main/images/lession1_0.png" width="80%" height="300"/><br>
